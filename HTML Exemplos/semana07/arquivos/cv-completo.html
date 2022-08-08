@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Curriculo</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+	</head>
+	
+	<body>
+		<h1>Currículo</h1>
+
+		<img src="cv-imagem-foto-template.png" alt="foto template" class="foto"/>
+				  		
+		<ul id="menu">
+			<li class="ativo">Completo</li>
+			<li><a href="cv-resumido.html">Resumido</a></li>
+		</ul>
+		
+		<div class="secao">
+			<h2>Dados Pessoais</h2>			
+				<div class="dados-pessoais">
+				 <span class="nome">Fulano</span>
+				  <span class="nome-meio">de</span>
+				  <span class="sobrenome">Tal</span>
+
+				 <a class="email" href="mailto:fulanodetal@gmail.com">fulanodetal@gmail.com</a>
+				 <a class="url" href="http://fulanodetal.com.br">http://fulanodetal.com.br</a>
+				
+				<div class="endereco">
+				  <span class="localidade">São Paulo</span>
+				, 
+				  <span class="regiao">São Paulo</span>
+
+				 </div>
+				</div>
+		</div>
+
+		<div class="secao">
+			<h2>Dados Profissionais</h2>
+			
+			<p><label>Organização</label>Google</p>
+			<p><label>Organização</label>Microsoft</p>
+			<p><label>Organização</label>AWS</p>
+			<p><label>Organização</label>SAP</p>
+		</div>
+
+		<div class="secao">
+			<h2>Formação Acadêmica</h2>
+			
+			<p><label>Pós-Doc</label>Computação em Nuvem</p>
+			<p><label>Doutorado</label>Doutorado em Ciências da Computação</p>
+			<p><label>Mestrado</label>Mestrado em Ciências da Computação</p>
+			<p><label>Graduação</label>Bacharel em Ciência da Computação</p>
+		</div>
+
+		<div class="secao">
+			<h2>Formação Complementar</h2>
+			<table>
+				<thead>
+				<tr>
+					<th>Curso</th>
+					<th>Carga horária</th>
+				</tr>
+				</thead>
+				<tr class="par">
+					<td>Arquiteto de Internet das Coisas</td>
+					<td>120h</td>
+				</tr>
+				<tr class="impar">
+					<td>Testes de Software</td>
+					<td>120h</td>
+				</tr>
+				<tr class="par">
+					<td>Arquiteto de Infraestrutura de Computação em Nuvem</td>
+					<td>200h</td>
+				</tr>
+				<tr class="impar">
+					<td>Arquiteto de Aplicações Web - Front-End e Back-End</td>
+					<td>500h</td>
+				</tr>
+			</table>			
+		</div>
+
+		<div class="secao">
+			<h2>Línguas</h2>
+			<table>
+				<thead>
+				<tr>
+					<th>Língua</th>
+					<th>Escreve</th>
+					<th>Fala</th>
+					<th>Lê</th>
+				</tr>
+				</thead>
+				<tr class="par">
+					<td>Inglês</td>
+					<td class="bom">Bom</td>
+					<td class="bom">Bom</td>
+					<td class="otimo">Ótimo</td>
+				</tr>
+				<tr class="impar">
+					<td>Espanhol</td>
+					<td class="ruim">Ruim</td>
+					<td class="ruim">Ruim</td>
+					<td class="regular">Regular</td>
+				</tr>
+			</table>			
+		</div>
+
+		<form action="#" method="post">
+			<fieldset>
+			<legend class="alinhamento">Deixe sua mensagem caso queira me contratar</legend>
+			<label for="nome">Nome</label>
+			<input type="text" name="nome"/ maxlength="50">
+
+			<label for="nome">Email</label>
+			<input type="text" name="email"/ maxlength="50">
+
+			<label for="nome">Mensagem</label>
+			<textarea name="msg" maxlength="1000"></textarea>
+
+			<input type="submit" value="enviar"/>
+			</fieldset>
+		</form>
+
+		
+		<div id="footnote">
+			<li>Todos os Direitos Reservados - Fulano de Tal 2020</li>
+		</div>		
+	</body>
+</html>
