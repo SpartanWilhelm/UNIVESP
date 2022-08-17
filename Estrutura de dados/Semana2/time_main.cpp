@@ -23,8 +23,8 @@ cout<<"Second: "<<t1.getSecond()<<endl;
  Nesta segunda instância, usamos o padrão apenas para minutos e segundos.
 */
 
-//Time t2(12);
-//t2.print();
+Time t2(12);
+t2.print();
 
 Time t3(23, 59, 58);
 t3.nextSecond();
