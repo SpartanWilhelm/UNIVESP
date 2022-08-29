@@ -1,0 +1,2 @@
+Para executar o web crawler criado com scrapy, deve utilizar o comando abaixo no terminal
+scrapy runspider nome_do_arquivo.py
