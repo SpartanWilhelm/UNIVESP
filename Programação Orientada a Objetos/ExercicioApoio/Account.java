@@ -1,4 +1,4 @@
-package Semana1;
+package ExercicioApoio;
 public class Account{
 
     private String name;

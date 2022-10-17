@@ -1,3 +1,4 @@
+package Semana1;
 import java.util.Scanner;
 
 public class ConverterTest {

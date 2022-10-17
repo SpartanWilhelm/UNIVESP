@@ -1,4 +1,4 @@
-package Semana1;
+package ExercicioApoio;
 import java.util.Scanner;
 
 public class AccountTest {
