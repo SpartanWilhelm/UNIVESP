@@ -1,3 +1,5 @@
+package Semana1;
+
 public class Converter{
     public double cToF(double temperatura){
         return ((temperatura/5)*9)+32;
