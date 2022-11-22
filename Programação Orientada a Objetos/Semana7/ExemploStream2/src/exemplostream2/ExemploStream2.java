@@ -20,7 +20,7 @@ public class ExemploStream2 {
 
 		// Cria um inputstream para ler o conteúdo do arquivo
 		FileInputStream inputStream 
-			= new FileInputStream("C://Users//julio//entrada.txt"); 
+			= new FileInputStream("D:\\UNIVESP\\UNIVESP\\UNIVESP\\Programação Orientada a Objetos\\Semana7\\entrada.txt"); 
 
 		// Converte inputStream para bufferedInputStream 
 		BufferedInputStream buffInputStr 

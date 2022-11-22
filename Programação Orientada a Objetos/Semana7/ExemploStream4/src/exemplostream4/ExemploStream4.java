@@ -20,7 +20,7 @@ public class ExemploStream4 {
   
         // Lê a stream  
         FileReader fileReader 
-            = new FileReader("C://Users//julio//entrada.txt"); 
+            = new FileReader("D:\\UNIVESP\\UNIVESP\\UNIVESP\\Programação Orientada a Objetos\\Semana7\\entrada.txt"); 
   
         // Converte fileReader para bufferedReader 
         BufferedReader buffReader 

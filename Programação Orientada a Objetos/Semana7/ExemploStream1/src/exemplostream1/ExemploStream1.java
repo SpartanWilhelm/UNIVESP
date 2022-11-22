@@ -23,7 +23,7 @@ public class ExemploStream1 {
        public static void main(String[] args) {
              InputStream inputstream;
              try {
-                    inputstream = new FileInputStream("C://Users//julio//entrada.txt");
+                    inputstream = new FileInputStream("D:\\UNIVESP\\UNIVESP\\UNIVESP\\Programação Orientada a Objetos\\Semana7\\entrada.txt");
                     int data = inputstream.read();
                     while (data != -1) {
                            System.out.println(data);
