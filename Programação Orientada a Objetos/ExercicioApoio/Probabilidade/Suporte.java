@@ -1,9 +1,6 @@
 package ExercicioApoio.Probabilidade;
 
 public class Suporte {
-    private Integer x;
-    private Integer n;
-    private Integer k;
 
     public Integer fatorial(Integer n){
         if (n == 0){
@@ -15,16 +12,16 @@ public class Suporte {
         }
     }
 
-    public Double combinacao(Integer n, Integer k){
+    public Integer combinacao(Integer n, Integer k){
         if (k == n || k == 0){
-            return (double) 1;
+            return 1;
         }else{
-            return (double) (fatorial(n))/(fatorial(k)*fatorial(n-k));
+            return (fatorial(n))/(fatorial(k)*fatorial(n-k));
         }        
     }
 
-    public Double arranjo(Integer n, Integer k){
-        return (double) (fatorial(n))/fatorial(n-k);
+    public Integer arranjo(Integer n, Integer k){
+        return (fatorial(n))/fatorial(n-k);
     }
 
     public Double potencia(Double x, Integer y){
@@ -40,7 +37,14 @@ public class Suporte {
     }
     
     public Double distribuicaoPoisson(Integer tempo, Integer k, Integer sigma){
-        return (((potencia(Math.E, (-sigma*tempo))) * (potencia((double) (sigma * tempo), k))) / fatorial(k)) * 100;
+        return (((potencia(Math.E, (-sigma*tempo))) * (potencia((double) (sigma * tempo), k))) / fatorial(k));
+    }
+    public Double distribuicaoGeometrica(Double p, Integer k){
+        return potencia((1 - p), (k - 1)) * p;
+    }
+
+    public Double distribuicaoHiperGeometrica(Integer K, Integer N, Integer k, Integer n){
+        return (double) ((combinacao(K, k) * combinacao((N - K), (n - k))) / combinacao(N, n));
     }
 
 }
