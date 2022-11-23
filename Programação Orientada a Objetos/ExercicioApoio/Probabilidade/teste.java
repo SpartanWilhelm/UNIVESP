@@ -74,15 +74,6 @@ public class teste {
                 System.out.println("A probabilidade de encontrar " + k + " eventos em " + n + " é de " + s.distribuicaoHiperGeometrica(K, N, k, n));
             }
         }
-        Integer n = 200;
-        Integer k = 140;
-        Integer sigma = 65;
-        Integer tempo = 2;
-
-        //System.out.println(s.combinacao(n,k));
-        System.out.println(s.distribuicaoBinomial(n, 65.0, k)*100 + "%");
-        System.out.println(s.distribuicaoPoisson(tempo, k, sigma)+"%");
->>>>>>> b19a552a6e32412649be97f081e8b3ce6503471c
     }
     
 }
