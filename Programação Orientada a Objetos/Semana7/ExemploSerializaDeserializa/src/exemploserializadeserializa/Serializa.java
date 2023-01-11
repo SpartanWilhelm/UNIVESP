@@ -24,7 +24,7 @@ public class Serializa {
         e.id = 203040;
         e.numero = 100;
         try {
-            FileOutputStream fileOut = new FileOutputStream("C://Users//julio//funcionario.ser");
+            FileOutputStream fileOut = new FileOutputStream("D:\\UNIVESP\\UNIVESP\\UNIVESP\\Programação Orientada a Objetos\\Semana7\\funcionario.ser");
             ObjectOutputStream out = new ObjectOutputStream(fileOut);
             out.writeObject(e);
             out.close();

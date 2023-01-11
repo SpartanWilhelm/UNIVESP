@@ -20,7 +20,7 @@ public class Deserializa
       Funcionario e;
       try
       {
-          try (FileInputStream fileIn = new FileInputStream("C://Users//julio//funcionario.ser"); 
+          try (FileInputStream fileIn = new FileInputStream("D:\\UNIVESP\\UNIVESP\\UNIVESP\\Programação Orientada a Objetos\\Semana7\\funcionario.ser"); 
                   ObjectInputStream in = new ObjectInputStream(fileIn)) {
               e = (Funcionario) in.readObject();
           }

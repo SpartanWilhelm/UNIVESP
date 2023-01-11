@@ -25,7 +25,7 @@ public static void main(String args[])
 	System.out.println("Resultado da multiplicação: "+multiplica); 
 
 	// criar uma lista de strings 
-	List<String> nomes = Arrays.asList("UNIVESP","USP","UNICAMP", "UNESP"); 
+	List<String> nomes = Arrays.asList("UNIVESP","USP","JAVA","UNICAMP", "UNESP"); 
 
 	// uso do método filter 
 	List<String> resultado = nomes.stream().filter(s->s.startsWith("U")).collect(Collectors.toList()); 
