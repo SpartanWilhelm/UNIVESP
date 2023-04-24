@@ -1,5 +1,5 @@
 Flow report for circuito01
-Mon Apr 24 12:26:01 2023
+Mon Apr 24 13:39:35 2023
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -38,24 +38,26 @@ https://fpgasoftware.intel.com/eula.
 
 
 
-+-------------------------------------------------------------------------------------------+
-; Flow Summary                                                                              ;
-+------------------------------------+------------------------------------------------------+
-; Flow Status                        ; EDA Netlist Writer Failed - Mon Apr 24 12:26:00 2023 ;
-; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition          ;
-; Revision Name                      ; circuito01                                           ;
-; Top-level Entity Name              ; circuito01                                           ;
-; Family                             ; Cyclone IV E                                         ;
-; Total logic elements               ; 1                                                    ;
-;     Total combinational functions  ; 1                                                    ;
-;     Dedicated logic registers      ; 0                                                    ;
-; Total registers                    ; 0                                                    ;
-; Total pins                         ; 4                                                    ;
-; Total virtual pins                 ; 0                                                    ;
-; Total memory bits                  ; 0                                                    ;
-; Embedded Multiplier 9-bit elements ; 0                                                    ;
-; Total PLLs                         ; 0                                                    ;
-+------------------------------------+------------------------------------------------------+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Mon Apr 24 13:39:35 2023       ;
+; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
+; Revision Name                      ; circuito01                                  ;
+; Top-level Entity Name              ; circuito01                                  ;
+; Family                             ; Cyclone IV E                                ;
+; Total logic elements               ; 1 / 6,272 ( < 1 % )                         ;
+;     Total combinational functions  ; 1 / 6,272 ( < 1 % )                         ;
+;     Dedicated logic registers      ; 0 / 6,272 ( 0 % )                           ;
+; Total registers                    ; 0                                           ;
+; Total pins                         ; 4 / 92 ( 4 % )                              ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0 / 276,480 ( 0 % )                         ;
+; Embedded Multiplier 9-bit elements ; 0 / 30 ( 0 % )                              ;
+; Total PLLs                         ; 0 / 2 ( 0 % )                               ;
+; Device                             ; EP4CE6E22C6                                 ;
+; Timing Models                      ; Final                                       ;
++------------------------------------+---------------------------------------------+
 
 
 +-----------------------------------------+
@@ -63,23 +65,30 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/24/2023 12:05:01 ;
+; Start date & time ; 04/24/2023 13:35:07 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; circuito01          ;
 +-------------------+---------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                        ;
-+-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
-+-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 92808526409999.168234870115668         ; --            ; --          ; --         ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --          ; --         ;
-+-------------------------------------+----------------------------------------+---------------+-------------+------------+
++------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                               ;
++-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
+; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
++-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
+; COMPILER_SIGNATURE_ID               ; 92808526409999.168235410610052         ; --            ; --          ; --                                ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_timing           ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_boundary_scan    ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_signal_integrity ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_symbol           ;
+; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --            ; --          ; eda_simulation                    ;
+; EDA_SIMULATION_TOOL                 ; ModelSim (Verilog)                     ; <None>        ; --          ; --                                ;
+; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --          ; eda_simulation                    ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top                               ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; --          ; Top                               ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; --          ; Top                               ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --          ; --                                ;
++-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------+
@@ -87,21 +96,14 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:44     ; 1.0                     ; 4795 MB             ; 00:00:58                           ;
-; EDA Netlist Writer   ; 00:00:03     ; 1.0                     ; 4634 MB             ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4638 MB             ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4636 MB             ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4638 MB             ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4636 MB             ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4638 MB             ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4636 MB             ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4641 MB             ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4636 MB             ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4636 MB             ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4638 MB             ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4636 MB             ; 00:00:02                           ;
+; Analysis & Synthesis ; 00:00:59     ; 1.0                     ; 4792 MB             ; 00:01:06                           ;
+; Fitter               ; 00:01:09     ; 1.0                     ; 5220 MB             ; 00:00:11                           ;
+; Assembler            ; 00:00:08     ; 1.0                     ; 4676 MB             ; 00:00:03                           ;
+; Timing Analyzer      ; 00:00:11     ; 1.0                     ; 4745 MB             ; 00:00:06                           ;
+; EDA Netlist Writer   ; 00:00:04     ; 1.0                     ; 4632 MB             ; 00:00:02                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4625 MB             ; 00:00:02                           ;
 ; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4634 MB             ; 00:00:02                           ;
-; Total                ; 00:01:09     ; --                      ; --                  ; 00:01:24                           ;
+; Total                ; 00:02:35     ; --                      ; --                  ; 00:01:32                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -111,16 +113,9 @@ https://fpgasoftware.intel.com/eula.
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
 ; Analysis & Synthesis ; i5-Mobile        ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; i5-Mobile        ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; i5-Mobile        ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; i5-Mobile        ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; i5-Mobile        ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; i5-Mobile        ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; i5-Mobile        ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; i5-Mobile        ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; i5-Mobile        ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; i5-Mobile        ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; i5-Mobile        ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; i5-Mobile        ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; i5-Mobile        ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; i5-Mobile        ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; i5-Mobile        ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; i5-Mobile        ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; i5-Mobile        ; Windows 10 ; 10.0       ; x86_64         ;
@@ -131,19 +126,12 @@ https://fpgasoftware.intel.com/eula.
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off circuito01 -c circuito01
+quartus_fit --read_settings_files=off --write_settings_files=off circuito01 -c circuito01
+quartus_asm --read_settings_files=off --write_settings_files=off circuito01 -c circuito01
+quartus_sta circuito01 -c circuito01
+quartus_eda --read_settings_files=off --write_settings_files=off circuito01 -c circuito01
 quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off circuito01 -c circuito01 --vector_source="D:/UNIVESP/Circuitos Digitais/Waveform.vwf" --testbench_file="D:/UNIVESP/Circuitos Digitais/simulation/qsim/Waveform.vwf.vht"
 quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="D:/UNIVESP/Circuitos Digitais/simulation/qsim/" circuito01 -c circuito01
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off circuito01 -c circuito01 --vector_source="D:/UNIVESP/Circuitos Digitais/Waveform.vwf" --testbench_file="D:/UNIVESP/Circuitos Digitais/simulation/qsim/Waveform.vwf.vht"
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="D:/UNIVESP/Circuitos Digitais/simulation/qsim/" circuito01 -c circuito01
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off circuito01 -c circuito01 --vector_source="D:/UNIVESP/Circuitos Digitais/Waveform.vwf" --testbench_file="D:/UNIVESP/Circuitos Digitais/simulation/qsim/Waveform.vwf.vht"
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="D:/UNIVESP/Circuitos Digitais/simulation/qsim/" circuito01 -c circuito01
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off circuito01 -c circuito01 --vector_source="D:/UNIVESP/Circuitos Digitais/Waveform.vwf" --testbench_file="D:/UNIVESP/Circuitos Digitais/simulation/qsim/Waveform.vwf.vht"
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="D:/UNIVESP/Circuitos Digitais/simulation/qsim/" circuito01 -c circuito01
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off circuito01 -c circuito01 --vector_source="D:/UNIVESP/Circuitos Digitais/Waveform.vwf" --testbench_file="D:/UNIVESP/Circuitos Digitais/simulation/modelsim/Waveform.vwf.vht"
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off circuito01 -c circuito01 --vector_source="D:/UNIVESP/Circuitos Digitais/Waveform.vwf" --testbench_file="D:/UNIVESP/Circuitos Digitais/simulation/qsim/Waveform.vwf.vht"
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="D:/UNIVESP/Circuitos Digitais/simulation/qsim/" circuito01 -c circuito01
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off circuito01 -c circuito01 --vector_source="D:/UNIVESP/Circuitos Digitais/Waveform.vwf" --testbench_file="D:/UNIVESP/Circuitos Digitais/simulation/qsim/Waveform.vwf.vht"
-quartus_eda --write_settings_files=off --simulation=on --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=vhdl --output_directory="D:/UNIVESP/Circuitos Digitais/simulation/qsim/" circuito01 -c circuito01
 
 
 

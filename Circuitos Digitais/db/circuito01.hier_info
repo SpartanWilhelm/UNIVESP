@@ -2,6 +2,6 @@
 a => m.IN0
 b => m.IN1
 c => y.IN1
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
+y << y.DB_MAX_OUTPUT_PORT_TYPE
 
 

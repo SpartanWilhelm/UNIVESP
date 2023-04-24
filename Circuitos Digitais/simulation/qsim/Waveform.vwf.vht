@@ -19,7 +19,7 @@
 -- the top level entity of the current Quartus project .The user can use this   
 -- testbench to simulate his design using a third-party simulation tool .       
 -- *****************************************************************************
--- Generated on "04/24/2023 12:25:57"
+-- Generated on "04/24/2023 13:39:32"
                                                              
 -- Vhdl Test Bench(with test vectors) for design  :          circuito01
 -- 
@@ -43,7 +43,7 @@ COMPONENT circuito01
 	a : IN STD_LOGIC;
 	b : IN STD_LOGIC;
 	c : IN STD_LOGIC;
-	y : OUT STD_LOGIC
+	y : BUFFER STD_LOGIC
 	);
 END COMPONENT;
 BEGIN
