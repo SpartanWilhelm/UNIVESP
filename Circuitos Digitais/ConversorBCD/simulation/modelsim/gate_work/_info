@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/UNIVESP/Circuitos Digitais/ConversorBCD/simulation/modelsim
+vbcd7_seg
+Z1 !s110 1682448787
+!i10b 1
+!s100 62[KG5Ezd@H=_dJOZ@VXH3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IaodUQA?AX6:Q[O06YWhFk3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1682448747
+Z5 8bcd7_seg.vo
+Z6 Fbcd7_seg.vo
+!i122 0
+L0 32 321
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1682448787.000000
+!s107 bcd7_seg.vo|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|bcd7_seg.vo|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+.
+Z12 tCvgOpt 0
+vhard_block
+R1
+!i10b 1
+!s100 4H9_S3GBnhBkmO5Cmc=]m2
+R2
+I8mmZ>>UH:c7j]9g2HXlDh3
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 354 34
+R7
+r1
+!s85 0
+31
+R8
+Z13 !s107 bcd7_seg.vo|
+R9
+!i113 1
+R10
+R11
+R12

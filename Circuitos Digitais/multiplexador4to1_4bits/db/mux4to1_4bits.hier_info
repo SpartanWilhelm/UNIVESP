@@ -1,0 +1,29 @@
+|mux4to1_4bits
+w0[0] => f.DATAB
+w0[1] => f.DATAB
+w0[2] => f.DATAB
+w0[3] => f.DATAB
+w1[0] => f.DATAB
+w1[1] => f.DATAB
+w1[2] => f.DATAB
+w1[3] => f.DATAB
+w2[0] => f.DATAB
+w2[1] => f.DATAB
+w2[2] => f.DATAB
+w2[3] => f.DATAB
+w3[0] => f.DATAA
+w3[1] => f.DATAA
+w3[2] => f.DATAA
+w3[3] => f.DATAA
+s[0] => Equal0.IN0
+s[0] => Equal1.IN1
+s[0] => Equal2.IN1
+s[1] => Equal0.IN1
+s[1] => Equal1.IN0
+s[1] => Equal2.IN0
+f[0] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[1] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[2] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[3] <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+

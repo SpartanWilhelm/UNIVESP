@@ -1,0 +1,99 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/UNIVESP/Circuitos Digitais/multiplexador2to1_4bits/simulation/qsim
+vmux2to1_4bits
+!s110 1682445865
+!i10b 1
+!s100 <7;@106f63QedJ>gaK3Xk0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IQY3eWbNAcQcm^<3LeDLaj3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1682445861
+8mux2to1_4bits.vo
+Fmux2to1_4bits.vo
+!i122 2
+L0 32 242
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1682445864.000000
+!s107 mux2to1_4bits.vo|
+!s90 -work|work|mux2to1_4bits.vo|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+Emux2to1_4bits_vhd_vec_tst
+Z6 w1682445479
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+Z9 8Waveform.vwf.vht
+Z10 FWaveform.vwf.vht
+l0
+L32 1
+VZGUdGmOSA8E^_NT6QhEED1
+!s100 ie^kgG_6fX[^Z;DgzdVGJ1
+Z11 OV;C;2020.1;71
+32
+Z12 !s110 1682445486
+!i10b 1
+Z13 !s108 1682445486.000000
+Z14 !s90 -work|work|Waveform.vwf.vht|
+Z15 !s107 Waveform.vwf.vht|
+!i113 1
+R4
+Z16 tExplicit 1 CvgOpt 0
+Amux2to1_4bits_arch
+R7
+R8
+DEx4 work 25 mux2to1_4bits_vhd_vec_tst 0 22 ZGUdGmOSA8E^_NT6QhEED1
+!i122 1
+l49
+L34 998
+VN92`7eLQ1SR^mh9QQC8WO0
+!s100 1W1WI[UfUU4L]eZLGmdC@0
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R4
+R16
+vmux2to1_4bits_vlg_vec_tst
+!s110 1682445866
+!i10b 1
+!s100 VH?zY6]OhZRPOF2EeC?i43
+R1
+I6BIYMbf7TV?V@VBMfKXz43
+R2
+R0
+w1682445858
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 3
+L0 30 527
+R3
+r1
+!s85 0
+31
+!s108 1682445865.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R4
+R5

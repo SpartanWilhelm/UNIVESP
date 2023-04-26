@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, D:/UNIVESP/Circuitos Digitais/multiplexador/mux2to1_1bit.vhd
+source_file = 1, d:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, d:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, d:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, d:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, D:/UNIVESP/Circuitos Digitais/multiplexador/db/mux2to1_1bit.cbx.xml
+design_name = hard_block
+design_name = mux2to1_1bit
+instance = comp, \f~output\, f~output, mux2to1_1bit, 1
+instance = comp, \w1~input\, w1~input, mux2to1_1bit, 1
+instance = comp, \s~input\, s~input, mux2to1_1bit, 1
+instance = comp, \w0~input\, w0~input, mux2to1_1bit, 1
+instance = comp, \f~0\, f~0, mux2to1_1bit, 1
