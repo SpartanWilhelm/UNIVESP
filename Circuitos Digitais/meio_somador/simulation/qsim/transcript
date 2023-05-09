@@ -1,0 +1,31 @@
+# do meio_somador.do
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:28:19 on May 08,2023
+# vcom -work work meio_somador.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Compiling entity meio_somador
+# -- Compiling architecture structure of meio_somador
+# End time: 11:28:20 on May 08,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:28:20 on May 08,2023
+# vcom -work work Waveform.vwf.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity meio_somador_vhd_vec_tst
+# -- Compiling architecture meio_somador_arch of meio_somador_vhd_vec_tst
+# End time: 11:28:20 on May 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cycloneive -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.meio_somador_vhd_vec_tst 
+# Start time: 11:28:23 on May 08,2023
+# ** Error (suppressible): (vsim-12110) The -novopt option has no effect on this product. -novopt option is now deprecated and will be removed in future releases.
+# Error loading design
+# End time: 11:28:24 on May 08,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
